@@ -1,0 +1,10 @@
+2024-01-23T13:12:25+00:00 CRITICAL Uncaught Error: Undefined constant "active_tab" in C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-content\plugins\mv-slider\views\settings-page.php:12
+Stack trace:
+#0 C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-content\plugins\mv-slider\mv-slider.php(107): require()
+#1 C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-includes\class-wp-hook.php(324): MV_Slider->mv_slider_settings_page('')
+#2 C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#5 {main}
+  thrown in C:\Users\User\Desktop\software_work\BEMA\Local_sites\wordpress_plugins\app\public\wp-content\plugins\mv-slider\views\settings-page.php on line 12
+
